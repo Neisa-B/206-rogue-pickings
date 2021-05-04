@@ -188,3 +188,56 @@ footer span {
 	color: #77a466;
 	font-size: 0.875em;
 }
+
+
+/**TABLET STYLES**/
+@media all and (min-width: 768px) {
+	.bottom-section {
+		justify-content: space-between;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+		flex-basis: 33%;
+		text-align: center;
+	}
+
+	.section-two {
+		border-left: 3px solid #eee;
+		border-right: 3px solid #eee;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three h3 {
+		padding: 10px 0;
+	}
+
+	.section-three {
+		padding-bottom: 48px;
+	}
+
+}
+
+/**DESKTOP STYLES**/
+@media all and (min-width:1200px) {
+	header {
+		justify-content: space-between;
+	}
+
+	header h1 {
+		padding: 38px 0;
+	}
+
+	header nav {
+		padding: 46px 0;
+		border-top: none;
+		width: auto;
+	}
+
+	header nav ul li {
+		display: inline;
+	}
+
+}
